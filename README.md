@@ -5,7 +5,7 @@ front end centric applications, using next generation technology like React & An
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## API, it takes 5min to create a robust backend rest api. Imagine you were billed 1000's and 1000's pound for that.
+## API, it takes 5min to create a robust backend rest api..
 The api is developed using jsonserver. And guess what, we just need to create a json file and bingo, all apis are automatically made 
 available for you. If you want to add security the same can be added via proxy, the proxy server can do the validation/authorization
 before calling the jsonserver. For secured application jsonserver is not available outside your organization network. 
@@ -15,6 +15,9 @@ Installation is very easy, just run the following command: npm install -g json-s
 more details at https://www.npmjs.com/package/json-server
 
 Now start the server using the following command after copying the db.json, where data will be persisted: json-server --watch db.json
+
+Once server is started, check all rest apis available @ http://localhost:3000
+
 
 ## Available Scripts
 
