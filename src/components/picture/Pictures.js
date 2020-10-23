@@ -13,7 +13,8 @@ class Pictures extends Component {
         axios.get( configData.SERVER_URL + '/cakes' )
             .then(
             	response => {
-                	this.setState({pictures: response.data});
+                    this.setState({pictures: response.data});
+                    configData.data = response.data;
            		}
            	)
             .catch(

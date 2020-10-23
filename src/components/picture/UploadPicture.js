@@ -15,6 +15,7 @@ class UploadPicture extends Component {
         }
     }
 
+
     submit = () => {
         const picture = {
             name: this.state.name,
@@ -31,7 +32,15 @@ class UploadPicture extends Component {
         if (!this.state.name) {
            errors.name = 'Name is missing!';
            error = true;
-        } 
+        } else {
+            let matched = configData.data.filter( picture => {
+                return picture.name == this.state.name
+            })
+            if (matched.length > 0) {
+                errors.name = 'Name already exist!';
+                error = true;
+            }
+        }
         if (!this.state.imageUrl) {
             errors.imageUrl = 'Please supply a valid image URL!';
             error = true;
