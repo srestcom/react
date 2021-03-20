@@ -1,13 +1,17 @@
+This is simple app, with 3 view. First view show list if pictures, one can click on the picture to see the detail of that picture (this is the second view), one can upload new picture by clicking "upload cake" (this is the third view)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+first run npm install (check node_modules folder)
 
-### `npm start`
+### `npm start` 
+accept to start in new port
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
