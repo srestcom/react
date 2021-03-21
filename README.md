@@ -1,6 +1,25 @@
-This is simple app, with 3 view. First view show list if pictures, one can click on the picture to see the detail of that picture (this is the second view), one can upload new picture by clicking "upload cake" (this is the third view)
+This is simple app, with 3 view. First view show list if pictures, one can click on the picture to see the detail of that picture (this is the second view), one can upload new picture by clicking "upload cake" (this is the third view).
+
+This project demonstrate how easy it is to create any fully functional applications in matter of hours.
+Technology have made immense development, now any development can be done in 10% cost. Computing speed is doubling
+every year and now it more than millions times faster than when we began. This has led to development of
+front end centric applications, using next generation technology like React & Angular.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## API, it takes 5min to create a robust backend rest api..
+The api is developed using jsonserver. And guess what, we just need to create a json file and bingo, all apis are automatically made 
+available for you. If you want to add security the same can be added via proxy, the proxy server can do the validation/authorization
+before calling the jsonserver. For secured application jsonserver is not available outside your organization network. 
+Please refer to https://github.com/srestcom/react/blob/main/src/db.json for that json file.
+
+Installation is very easy, just run the following command: npm install -g json-server
+more details at https://www.npmjs.com/package/json-server
+
+Now start the server using the following command after copying the db.json, where data will be persisted: json-server --watch db.json
+
+Once server is started, check all rest apis available @ http://localhost:3000
+
 
 ## Available Scripts
 
